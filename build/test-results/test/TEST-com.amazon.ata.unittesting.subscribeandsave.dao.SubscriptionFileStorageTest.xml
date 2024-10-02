@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.amazon.ata.unittesting.subscribeandsave.dao.SubscriptionFileStorageTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-10-02T14:16:49" hostname="DESKTOP-1IBGMDS" time="0.609">
+  <properties/>
+  <testcase name="updateSubscription_withExistingSubscriptionAndUpdatedCustomerId_returnsUpdatedCustomerId()" classname="com.amazon.ata.unittesting.subscribeandsave.dao.SubscriptionFileStorageTest" time="0.363"/>
+  <testcase name="updateSubscription_withExistingSubscriptionAndUpdatedASIN_returnsUpdatedASIN()" classname="com.amazon.ata.unittesting.subscribeandsave.dao.SubscriptionFileStorageTest" time="0.055"/>
+  <testcase name="writeSubscription_subsequentGetById_returnsCorrectFields()" classname="com.amazon.ata.unittesting.subscribeandsave.dao.SubscriptionFileStorageTest" time="0.046"/>
+  <testcase name="writeSubscription_newSubscription_subscriptionReturnedWithId()" classname="com.amazon.ata.unittesting.subscribeandsave.dao.SubscriptionFileStorageTest" time="0.02"/>
+  <testcase name="updateSubscription_withNoSubscriptionFound_throwsIllegalArgumentException()" classname="com.amazon.ata.unittesting.subscribeandsave.dao.SubscriptionFileStorageTest" time="0.044"/>
+  <testcase name="getSubscriptionById_withExistingSubscriptionId_returnsCorrectFields()" classname="com.amazon.ata.unittesting.subscribeandsave.dao.SubscriptionFileStorageTest" time="0.019"/>
+  <testcase name="updateSubscription_withNullSubscription_throwsIllegalArgumentException()" classname="com.amazon.ata.unittesting.subscribeandsave.dao.SubscriptionFileStorageTest" time="0.014"/>
+  <testcase name="updateSubscription_withExistingSubscriptionAndUpdatedFrequency_returnsUpdatedFrequency()" classname="com.amazon.ata.unittesting.subscribeandsave.dao.SubscriptionFileStorageTest" time="0.014"/>
+  <testcase name="updateSubscription_withSubscriptionMissingId_throwsIllegalArgumentException()" classname="com.amazon.ata.unittesting.subscribeandsave.dao.SubscriptionFileStorageTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
